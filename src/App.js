@@ -7,7 +7,7 @@ import ProductsByCategoriesPage from './components/pages/ProductsByCategoriesPag
 import SingleProductPage from './components/pages/SingleProductPage/SingleProductPage';
 import CartPage from './components/pages/CartPage/CartPage';
 import NotFoundPage from './components/pages/NotFoundPage/NotFoundPage';
-import { Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import AllSales from './components/pages/AllSales/AllSales';
 import { getAllcategories } from './requests/categories_req';
@@ -44,7 +44,7 @@ function App() {
 
       <NavMenu isMenuOpen={isMenuOpen} isMobile={isMobile} openMenu={openMenu} />
       {/* {isMobile && <RxHamburgerMenu onClick={openMenu} />} */}
-      <Routes>
+      <Routes basename='/'>
         <Route path='/' element={<MainPage />} />
         <Route path='/categories' element={<AllCategoriesPage />} />
         <Route path='/all_sales' element={<AllSales />} />
