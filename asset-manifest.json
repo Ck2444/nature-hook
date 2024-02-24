@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/nature-hook/static/css/main.15f95d87.css",
-    "main.js": "/nature-hook/static/js/main.0cb6a6f2.js",
+    "main.js": "/nature-hook/static/js/main.d7036c86.js",
     "static/media/image_2.png": "/nature-hook/static/media/image_2.219152481630c1bc0f3f.png",
     "static/media/image_6.png": "/nature-hook/static/media/image_6.c0bfd006383af424153c.png",
     "static/media/image_3.png": "/nature-hook/static/media/image_3.c036eea09188ab215dcb.png",
     "index.html": "/nature-hook/index.html",
     "main.15f95d87.css.map": "/nature-hook/static/css/main.15f95d87.css.map",
-    "main.0cb6a6f2.js.map": "/nature-hook/static/js/main.0cb6a6f2.js.map"
+    "main.d7036c86.js.map": "/nature-hook/static/js/main.d7036c86.js.map"
   },
   "entrypoints": [
     "static/css/main.15f95d87.css",
-    "static/js/main.0cb6a6f2.js"
+    "static/js/main.d7036c86.js"
   ]
 }
