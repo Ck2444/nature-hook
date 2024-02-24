@@ -53,7 +53,7 @@ function App() {
         <Route path='/products/:id' element={<SingleProductPage />} />
         <Route path='/all_sales' element={<AllSales />} />
         <Route path='/cart' element={<CartPage />} />
-        <Route path='*' element={<NotFoundPage />} />
+        {/* <Route path='*' element={<NotFoundPage />} /> */}
       </Routes>
       <Footer />
 
